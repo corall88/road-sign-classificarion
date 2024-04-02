@@ -9,8 +9,8 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.layers import BatchNormalization
 
 # Задаем параметры
-train_data_dir = r'C:\Users\пк\Desktop\proging\Python\ML\science project\train_dataset'
-test_data_dir = r'C:\Users\пк\Desktop\proging\Python\ML\science project\test_dataset'
+train_data_dir = r'путь к директории train_dataset'
+test_data_dir = r'путь к директории test_dataset'
 img_width, img_height = 150, 150
 batch_size = 15
 epochs = 25
